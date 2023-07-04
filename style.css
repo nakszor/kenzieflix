@@ -1,0 +1,87 @@
+@import url('https://fonts.googleapis.com/css2?family=IBM+Plex+Sans:wght@600&display=swap');
+*{  
+    font-family: 'IBM Plex Sans', sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: black;
+}
+.cabecalho{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    width: 100%;
+    height: 200px;
+    padding-top: 50px;
+
+}
+.logo-kenzieflix{
+    width: 230px;
+    height: 70px;
+}
+.title{
+    width: 335px;
+    height: 40px;
+    padding-top: 60px;
+    color: white;
+}
+.cards-container{ 
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.cards-box{
+    max-width: 700px;
+    height: 200px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+}
+.cards-perfil{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+    color: gray;
+    width: 160px;
+}
+.center-image{
+    display: block;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+.image{
+    border-radius: 8px;
+    width: 140px;
+    height: 140px;
+}
+.text{ 
+    padding-top: 15px;
+}
+.footer-position{ 
+    width: 100%;
+    height: 200px;
+    display: flex;
+    justify-content: center;
+    padding-top: 60px;
+}
+.button-gerenciar{
+    width: 200px;
+    height: 50px;
+    border: solid 2px #FFFFFF;
+    border-radius: 8px;
+    color: white;
+}
+button:hover{
+    color:black;
+    background-color: #FFFFFF;
+}
+
+.cards-perfil:hover{
+    color: #FFFFFF;
+}
+.image:hover{
+    border: solid 1px #FFFFFF;
+}
